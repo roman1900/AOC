@@ -1,0 +1,13 @@
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.csprojAssemblyReference.cache
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.AssemblyInfoInputs.cache
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.AssemblyInfo.cs
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.csproj.CoreCompileInputs.cache
+C:\Users\mmarschall.TASCOL\source\repos\AOC\bin\Debug\netcoreapp3.1\AOC.exe
+C:\Users\mmarschall.TASCOL\source\repos\AOC\bin\Debug\netcoreapp3.1\AOC.deps.json
+C:\Users\mmarschall.TASCOL\source\repos\AOC\bin\Debug\netcoreapp3.1\AOC.runtimeconfig.json
+C:\Users\mmarschall.TASCOL\source\repos\AOC\bin\Debug\netcoreapp3.1\AOC.runtimeconfig.dev.json
+C:\Users\mmarschall.TASCOL\source\repos\AOC\bin\Debug\netcoreapp3.1\AOC.dll
+C:\Users\mmarschall.TASCOL\source\repos\AOC\bin\Debug\netcoreapp3.1\AOC.pdb
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.dll
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.pdb
+C:\Users\mmarschall.TASCOL\source\repos\AOC\obj\Debug\netcoreapp3.1\AOC.genruntimeconfig.cache
