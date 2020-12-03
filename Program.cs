@@ -224,6 +224,10 @@ namespace AOC
             }
             Console.WriteLine($"{Good} valid passwords method 1.");
             Console.WriteLine($"{Good2} valid passwords method 2.");
+
+            string[] map = File.ReadAllLines("input-day3.txt");
+            Day3.TreesHit(map);
+            
         }
     }
 }

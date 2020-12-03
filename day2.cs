@@ -16,7 +16,6 @@ namespace AOC
 		}
 		public static bool ValidPasswordAlt(string check)
 		{
-			Console.WriteLine(check);
 			Regex reggie = new Regex(@"^(\d*)-(\d*)\s(\w):\s(.*)");
 			Match mc = reggie.Match(check);
 			int Pos1 = Int32.Parse(mc.Groups[1].Value) > mc.Groups[4].Value.Length ? -1 : Int32.Parse(mc.Groups[1].Value) - 1;
