@@ -226,8 +226,13 @@ namespace AOC
             Console.WriteLine($"{Good2} valid passwords method 2.");
 
             string[] map = File.ReadAllLines("input-day3.txt");
-            Day3.TreesHit(map);
-            
+            long total = Day3.TreesHit(map,1,1) * Day3.TreesHit(map,3,1) * Day3.TreesHit(map,5,1) * Day3.TreesHit(map,7,1) * Day3.TreesHit(map,1,2);
+            Console.WriteLine($"Hit {Day3.TreesHit(map,1,1)} trees");
+            Console.WriteLine($"Hit {Day3.TreesHit(map,3,1)} trees");
+            Console.WriteLine($"Hit {Day3.TreesHit(map,5,1)} trees");
+            Console.WriteLine($"Hit {Day3.TreesHit(map,7,1)} trees");
+            Console.WriteLine($"Hit {Day3.TreesHit(map,1,2)} trees");
+            Console.WriteLine($"Total Trees: {total}");
         }
     }
 }

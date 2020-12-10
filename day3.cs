@@ -3,23 +3,23 @@ namespace AOC
 {
 	class Day3
 	{
-		public static void TreesHit(string[] map)
+		public static long TreesHit(string[] map,int right, int down)
 		{
-			int row = 1;
+			int row = down;
 			int col = 0;
-			int trees = 0;
+			long trees = 0;
 			while (row < map.Length)
 			{
 				
-				col = (col + 3) % (map[row].Length);
+				col = (col + right) % (map[row].Length);
 				//Console.WriteLine($"{col}");
 				if (map[row][col] == '#')
 				{
 					trees++;
 				}
-				row++;
+				row=row+down;
 			}
-			Console.WriteLine($"Hit {trees} trees");
+			return trees;
 		}
 	}
 }
