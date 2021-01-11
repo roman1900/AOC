@@ -233,6 +233,12 @@ namespace AOC
             Console.WriteLine($"Hit {Day3.TreesHit(map,7,1)} trees");
             Console.WriteLine($"Hit {Day3.TreesHit(map,1,2)} trees");
             Console.WriteLine($"Total Trees: {total}");
+
+            string[] input4 = File.ReadAllLines("input-day4.txt");
+            long PC = Day4.PassportCount(input4,false);
+            Console.WriteLine($"{PC} valid passports found");
+            long vPC = Day4.PassportCount(input4,true);
+            Console.WriteLine($"{vPC} validated passports found");
         }
     }
 }
