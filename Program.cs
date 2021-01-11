@@ -239,6 +239,9 @@ namespace AOC
             Console.WriteLine($"{PC} valid passports found");
             long vPC = Day4.PassportCount(input4,true);
             Console.WriteLine($"{vPC} validated passports found");
+            string[] input5 = File.ReadAllLines("input-day5.txt");
+            int maxSeatID = Day5.MaxSeatID(input5);
+            Console.WriteLine($"The maximum seat ID is {maxSeatID}");
         }
     }
 }
