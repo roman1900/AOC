@@ -242,6 +242,8 @@ namespace AOC
             string[] input5 = File.ReadAllLines("input-day5.txt");
             int maxSeatID = Day5.MaxSeatID(input5);
             Console.WriteLine($"The maximum seat ID is {maxSeatID}");
+            int mySeat = Day5.MySeat(input5);
+            Console.WriteLine($"My seat ID is {mySeat}");
         }
     }
 }

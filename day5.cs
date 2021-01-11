@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+using System.Collections.Generic;
 namespace AOC
 {
 	class Day5
@@ -20,6 +22,22 @@ namespace AOC
 				maxid = seatID > maxid ? seatID : maxid;
 			}
 			return maxid;
+		}
+		public static int MySeat(string[] data)
+		{
+			
+			List<int> seatIDRange = new List<int>();
+			foreach (string line in data)
+			{
+				seatIDRange.Add((binaryPosition(line.Substring(0,7),'F',0,127)* 8)+binaryPosition(line.Substring(7),'L',0,7));
+			}
+			seatIDRange = seatIDRange.OrderBy(x => x).ToList();
+			int upper = (126 * 8) + 7;
+			for (int i=8; i <= upper;i++)
+			{
+				if (!seatIDRange.Contains(i) && seatIDRange.Contains(i-1) && seatIDRange.Contains(i+1)) return i;
+			}
+			return -1;
 		}
 		static private int binaryPosition(string locator,char left,int low, int high)
 		{
